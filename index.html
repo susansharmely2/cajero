@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="">
+    <title>Document</title>
+</head>
+<body>
+    <section class="inicio contenedor">
+        <div class="formulario">
+            <h1>Inicio de Sesion</h1>
+            
+        </div>
+        <form>
+            <div class="formulario__form">
+
+                <div class="formulario__form__registro">
+                    <label>Ingresa tu DNI</label>
+                    <input type="number" id="dniUser">
+                </div>
+                <div class="formulario__form__registro">
+                    <label>Ingresa tu contraseña</label>
+                    <input type="password" id="passwordUser" >
+                </div>
+                <div id="message" class="message"></div>
+                <div class="btnContinuar">
+                    <a id="SendButton"  >Continuar</a>
+                </div>
+            </div>
+        </form>
+        <div  class="btnsalir">
+            <button>Salir</button>
+        </div>
+
+    </section>
+
+    <section class="menu ocultar contenedor" >
+        <div class="title">
+            <h2>Menu principal</h2>
+            <p>Elija una operacion</p>
+        </div>
+       
+        <div class="buttonGeneral">
+            <button class="btnMenu btnSaldo">mostrar saldo</button>
+            <button class="btnMenu btnDeposito">depositar</button>
+            <button class="btnMenu btnRetiro">retirar</button>
+            <button class="btnMenu btnSalir">Salir</button>
+        </div>
+    </section>
+
+    <section class="saldo ocultar contenedor">
+        <h2>consulta saldo</h2>
+        <div id="verSaldo" class="contenedorCuenta"> 
+        </div>
+        <div class="buttonGeneral">
+            <button id="btnRegresarSaldo">Regresar</button><button id="btnSalirSaldo">Salir</button>
+        </div>
+    </section>
+
+    <section class="deposito ocultar contenedor">
+        <h2>Depositar de dinero</h2>
+        <div class="contenedorDeposito contenedorCuenta">
+            <label>Ingrese el monto</label>
+            <input  id="ingresarMonto">
+            <button id="btnIngresarMonto">Depositar</button>
+            <div id="mensajeexito" class="mensajeexito">            
+            </div>
+        </div>        
+        <div class="buttonGeneral">
+            <button id="btnRegresar">Regresar</button><button id="btnSalirDeposito">Salir</button>
+        </div>        
+    </section>
+
+    <section class="retiro ocultar contenedor">
+        <h2>Retiro de dinero</h2>
+        <div class="contenedorDeposito contenedorCuenta">
+            <label>ingrese el monto a retirar</label>
+            <input type="number" id="montoRetiro">
+            <button id="btnMontoRetiro">Retirar</button>
+            <div id="mensajeretiro" class="mensajeretiro">            
+            </div>
+        </div>
+       <div class="buttonGeneral">
+            <button id="btnRegresarRetiro">Regresar</button><button id="btnSalirRetiro">Salir</button>
+       </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>

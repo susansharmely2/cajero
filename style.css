@@ -1,0 +1,169 @@
+*,
+* ::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    background-color: #001f5a;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    font-weight: 600;
+    text-align: left;
+    padding: 10px;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 22px;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+form{
+    height: 300px;
+    margin: auto;
+    margin-top: 30px;
+   
+}
+
+label{
+    font-size: 20px;
+    margin-right: 20px;
+
+}
+
+input{
+    border: none;
+    border-radius: 3px;
+    padding: 8px;
+    color:#001f5a;
+    font-weight: 700;
+    font-size: 20px;  
+}
+
+.formulario__form{
+    width: 500px;
+    height: 300px;
+    background-color:#001f5a;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formulario__form__registro{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.contenedor{
+    width: 900px;
+    height: 500px;
+    border: 8px solid white;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+}
+
+button{
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+    color: #001f5a;
+    width: 11rem;
+    height: 4rem;
+    font-size: 19px;
+}
+
+.btnContinuar {
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+    color: #001f5a;
+    font-size: 19px;
+    padding: 20px 27px;
+    margin-top: 25px;
+    width: 40%;
+    text-align: center; 
+}
+
+.formulario{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.btnsalir {
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+}
+
+.ocultar{
+    display: none;
+}
+
+.btnsalir{
+    display: flex;
+    justify-self: end;
+}
+
+.title{
+    text-align: center;
+    padding: 50px;
+}
+
+.buttonGeneral{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: space-between;
+    gap: 140px;
+    margin-left:30px
+}
+
+.mensajeSaldo{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.contenedorCuenta{
+    background-color: white;
+    color: black;
+    width: 300px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+
+.contenedorDeposito{
+    background-color:  #001f5a;
+    color: white;
+}
+
+.contenedorDeposito input{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.saldo{
+    padding-top: 20px;
+}
+
+.mensajeexito{
+    margin-top: 40px;
+}
+
+.mensajeretiro{
+    margin-top: 40px;    
+}
+
+.message{
+    color: rgb(245, 211, 21);  
+}
